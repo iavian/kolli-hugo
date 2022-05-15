@@ -11,6 +11,6 @@ layout: "contact"
 ### Email 
 contact@iavian.com
 ### Address  
-> Kariyakattupatty, Semmedu
-> Nammakal
+> DO.22/136.Kariyankattupatty,Valavanthi Nadu, Semmedu, Kolli Hills, 
+> Namakkal, TAMIL NADU 637411
 
