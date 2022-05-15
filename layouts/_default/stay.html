@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="section pt-1">
+    <div class="columns is-multiline">
+        {{ range (where .Site.Pages "Section" "stay") }}
+        {{ range .Pages }}
+        <div class="column is-4 is-4-fullhd is-4-desktop is-6-tablet is-12-mobile">
+            <a href="/{{.Params.Url}}">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="{{ .Params.img }}" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4">{{ .Title }}</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            {{ .Summary }}
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

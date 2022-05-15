@@ -1,0 +1,10 @@
+.hugo_build.lock
+resources/_gen
+.DS_Store
+public/**
+public/*
+public/tags/
+public/index.xml
+public/sitemap.xml
+.gitignore
+public/tags/index.xml

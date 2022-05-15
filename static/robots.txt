@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /calendar/
+Disallow: /junk/
+
+Sitemap: https://kollihills.co.in/sitemap.xml

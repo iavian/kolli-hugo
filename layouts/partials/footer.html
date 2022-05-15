@@ -1,0 +1,12 @@
+{{ if .Site.Params.footer_company }}
+<footer class="footer p-2 has-text-light is-size-7 has-background-dark">
+    <div class="content has-text-centered">
+        <p>
+            <a class="has-text-info" href="{{ .Site.Params.footer_href }}">
+                {{ .Site.Params.footer_company }}
+            </a>
+            {{ .Site.Params.footer_date }}
+        </p>
+    </div>
+</footer>
+{{ end }}
